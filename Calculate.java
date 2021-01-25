@@ -6,7 +6,7 @@
 //if bmi <= 30.0 return "Overweight"
 //if bmi > 30 return "Obese"
 
-public class CalculateBMI {
+public class Calculate {
   public static String bmi(double weight, double height) 
   {
     double bmi = weight / Math.pow(height,2);
